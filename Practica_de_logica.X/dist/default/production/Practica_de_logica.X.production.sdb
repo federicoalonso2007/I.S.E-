@@ -1,0 +1,58 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"10 F:\Microchip\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 F:\Microchip\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 F:\Microchip\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"29 F:\Proyectos MPLAB\Practica_de_logica.X\main.c
+[v _main main `(v  1 e 1 0 ]
+[s S46 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"246 F:/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc/pic16f887.h
+[u S55 . 1 `S46 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES55  1 e 1 @6 ]
+"291
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+[s S24 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1496
+[u S33 . 1 `S24 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES33  1 e 1 @134 ]
+"1541
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"3450
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"29 F:\Proyectos MPLAB\Practica_de_logica.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"40
+[v main@posicion posicion `i  1 a 2 7 ]
+"39
+[v main@velocidad velocidad `i  1 a 2 5 ]
+"41
+[v main@izquierda izquierda `a  1 a 1 4 ]
+"42
+[v main@activo activo `a  1 a 1 3 ]
+"108
+} 0
